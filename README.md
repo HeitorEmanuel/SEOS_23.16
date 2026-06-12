@@ -97,19 +97,48 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-## Acesso ao Sistema
 
-### Painel do Cliente
+## Credenciais para Demonstração
 
-```text
+Para facilitar a avaliação do projeto, o banco de dados enviado já contém usuários cadastrados para testes.
+
+### Usuário Administrador
+
+CPF: 13680519443
+
+Senha: 12345678
+
+Permissões:
+
+* Acesso completo ao sistema
+* Gerenciamento de usuários
+* Controle de estoque
+* Gerenciamento de ordens de serviço
+* Acesso ao painel administrativo
+
+### Usuário Cliente
+
+CPF: 27580937469
+
+Senha: Ana#123
+
+Permissões:
+
+* Consulta das próprias ordens de serviço
+* Acompanhamento de status
+* Visualização do histórico de atendimentos
+
+### URLs de Acesso
+
+Painel do Cliente:
+
 http://127.0.0.1:8000/
-```
 
-### Painel Administrativo
+Painel Administrativo:
 
-```text
 http://127.0.0.1:8000/admin/
-```
+
+
 
 ## Módulos Principais
 
